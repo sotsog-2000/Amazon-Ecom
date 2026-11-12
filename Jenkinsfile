@@ -3,7 +3,7 @@ pipeline {
 
   stages {
    
-   stage('clone project now') {
+   stage('clone project') {
       steps {
            git branch:'master' , url:'https://github.com/PraveenKuberABC/Amazon-Ecom.git'
        }
